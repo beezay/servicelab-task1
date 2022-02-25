@@ -1,0 +1,20 @@
+.currencyCard {
+    min-width: '30%';
+    min-height: '100px';
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    padding: 2px 0;
+    /* margin: auto; */
+    background: #c2410c;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+}
+
+.btn:hover {
+    background: #c2400cc7;
+
+}

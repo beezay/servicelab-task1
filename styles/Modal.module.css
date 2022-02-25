@@ -1,0 +1,46 @@
+.modalWrapper {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background: #e7e5e480;
+    min-height: 100vh;
+    min-width: 100vw;
+    /* opacity: 0.4; */
+}
+
+.modalCard {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 30%;
+    min-height: max-content;
+    background-color: #fff;
+    padding: 20px 30px;
+    border-radius: 12px;
+    opacity: 1;
+}
+
+.modalHeader {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+}
+
+.closeModalBtn {
+    cursor: pointer;
+    background: #dc2626;
+    padding: 2px 12px;
+    color: white;
+    border-radius: 5px;
+    transition: all ease-in;
+}
+
+.closeModalBtn:hover {
+    background: #dc2626d5;
+
+}
+
+.modalBody {
+    padding: 12px 0 12px 0;
+}
